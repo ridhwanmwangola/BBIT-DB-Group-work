@@ -1,4 +1,9 @@
 PART B: NORMALIZATION (10 Marks)
+
+Overview:
+The SHOP_DATA relation is decomposed from an unnormalized flat structure — containing 26 mixed attributes across suppliers, watches, orders, clients, employees, warranties, and payments — into 7 distinct third normal form (3NF) tables.
+This process eliminates repeating groups and redundant data (1NF), removes partial dependencies where single-key relations already satisfied 2NF, and resolves transitive dependencies to ensure all non-key attributes depend solely on their respective primary keys (3NF).
+
 Initial Unnormalized Relation (UNF)
 
 SHOP_DATA
